@@ -332,7 +332,7 @@ def superuser():
         Main()
     else:
         os.system("clear")
-        os.system("xdg-open https://facebook.com/H4M1M.69")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100072828519575")
         time.sleep(3.0)
         
         os.system("clear")
