@@ -1,2 +1,8 @@
 #কিরে বোকাচোদা খানকির পলা টোল চুরি করতে আইসোস মাগির পলা আব্বা ডাক দিয়া দিমু
-import xax
+
+import platform
+b = platform.architecture()[0]
+if b == '64bit':
+    import xax
+elif b == '32bit':
+    print("32bit Not Supported! Sorry")
