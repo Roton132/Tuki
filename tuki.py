@@ -3,6 +3,6 @@
 import platform
 b = platform.architecture()[0]
 if b == '64bit':
-    import on_XD
+    import app_XD
 elif b == '32bit':
     print("32bit Not Supported! Sorry")
