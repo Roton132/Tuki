@@ -4,9 +4,10 @@ import platform
 
 if platform.architecture()[0] == '64bit':
     import forget1_XD
-    forget1_XD.autom_main()
+    forget1_XD.approval()
 else:
     print("32bit Not Supported! Sorry")
+
 
 
 
